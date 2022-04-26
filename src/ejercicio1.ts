@@ -1,0 +1,10 @@
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("girar a la izquierda");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
+console.log("avanzar y quitar");
