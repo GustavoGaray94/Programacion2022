@@ -1,10 +1,9 @@
 let num1: number = Number(prompt("Ingrese un número: "));
 let num2: number = Number(prompt("Ingrese otro número: "));
 
-let suma, inicio, cambio: number;
+let suma, cambio: number;
 
 suma = 0;
-inicio = num1;
 
 if (num1 > num2) {
   cambio = num1;
