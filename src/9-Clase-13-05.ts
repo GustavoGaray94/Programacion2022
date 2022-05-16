@@ -18,7 +18,7 @@ que reciba dos números por parámetro
 (uno llamado base y otro altura)
 (base*altura)/2 */
 
-function calculaAreaTriangulo(base: number, altura: number) {
+/*function calculaAreaTriangulo(base: number, altura: number) {
   return (base * altura) / 2;
 }
 
@@ -28,4 +28,22 @@ for (let i: number = 1; i <= 7; i++) {
   console.log(calculaAreaTriangulo(base, altura));
   base += 1;
   altura += 2;
+}*/
+
+function esMultiplo(dividendo: number, divisor: number): boolean {
+  if (dividendo % divisor === 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+let numero1: number = Number(prompt("ingrese numero 1 "));
+let numero2: number = Number(prompt("ingrese numero 2 "));
+let multiplo: boolean = esMultiplo(numero1, numero2);
+
+if (multiplo === true) {
+  console.log("es multiplo");
+} else {
+  console.log("no es multiplo");
 }
