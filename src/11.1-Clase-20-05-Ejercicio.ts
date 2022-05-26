@@ -11,21 +11,29 @@ vSuma =    7, 12, 9, 14, 18, 9 */
 
 let lista1: number = new Array(6);
 let lista2: number = new Array(6);
-let sumaLista: number = new Array(6);
 
-function pedirNumero() {
+function pedirNumero1() {
   for (let index = 0; index < 6; index++) {
-    lista1[index] = Number(prompt("Ingrese numeros de la lista 1: "));
-    lista2[index] = Number(prompt("Ingrese numeros de la lista 2: "));
+    lista1[index] = Number(prompt("Ingrese los números de la lista 1: "));
+  }
+}
+
+function pedirNumero2() {
+  for (let index = 0; index < 6; index++) {
+    lista2[index] = Number(prompt("Ingrese números de la lista 2: "));
   }
 }
 
 function sumarListas() {
+  let sumaLista: number = new Array(6);
   for (let index = 0; index < 6; index++) {
     sumaLista[index] = lista1[index] + lista2[index];
-    console.log(sumaLista[index]);
+    console.log(
+      "La suma de las posiciones de las listas es: ",
+      sumaLista[index]
+    );
   }
 }
-
-pedirNumero();
+pedirNumero1();
+pedirNumero2();
 sumarListas();
