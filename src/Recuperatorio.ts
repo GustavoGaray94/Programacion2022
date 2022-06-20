@@ -48,10 +48,10 @@ let cantProd: number = Number(
   prompt("ingrese la cantidad de productos comprados: ")
 );
 
-let listaProducto: string = new Array(cantProd);
-let precioUnitario: number = new Array(cantProd);
-let ticket: number = new Array(cantProd);
-let precioTotal: number = new Array(cantProd);
+let listaProducto: string[] = new Array(cantProd);
+let precioUnitario: number[] = new Array(cantProd);
+let ticket: number[] = new Array(cantProd);
+let precioTotal: number[] = new Array(cantProd);
 
 cargaprod(cantProd);
 mostrarListado();
